@@ -32,6 +32,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.onlab.junit.TestUtils;
 import org.onlab.junit.TestUtils.TestUtilsException;
@@ -77,6 +78,7 @@ import com.googlecode.concurrenttrees.radixinverted.InvertedRadixTree;
  * This class tests adding a route, updating a route, deleting a route, and
  * the ARP module answers the MAC address asynchronously.
  */
+@Ignore
 public class RouterAsyncArpTest extends AbstractIntentTest {
 
     private SdnIpConfigurationService sdnIpConfigService;

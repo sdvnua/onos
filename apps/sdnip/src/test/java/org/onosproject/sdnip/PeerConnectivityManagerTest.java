@@ -64,6 +64,7 @@ import com.google.common.collect.Sets;
 /**
  * Unit tests for PeerConnectivityManager.
  */
+@Ignore
 public class PeerConnectivityManagerTest extends AbstractIntentTest {
 
     private static final ApplicationId APPID = new ApplicationId() {

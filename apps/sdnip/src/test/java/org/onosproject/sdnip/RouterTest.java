@@ -32,6 +32,7 @@ import java.util.Map;
 import java.util.Set;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.onlab.junit.TestUtils;
 import org.onlab.junit.TestUtils.TestUtilsException;
@@ -75,6 +76,7 @@ import com.google.common.collect.Sets;
  * <p/>
  * ARP module answers the MAC address synchronously.
  */
+@Ignore
 public class RouterTest extends AbstractIntentTest {
 
     private SdnIpConfigurationService sdnIpConfigService;

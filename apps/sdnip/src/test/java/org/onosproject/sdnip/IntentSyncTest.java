@@ -20,6 +20,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.onlab.junit.TestUtils;
 import org.onlab.junit.TestUtils.TestUtilsException;
@@ -75,6 +76,7 @@ import static org.junit.Assert.assertTrue;
  * This class tests the intent synchronization function in the
  * IntentSynchronizer class.
  */
+@Ignore
 public class IntentSyncTest extends AbstractIntentTest {
 
     private InterfaceService interfaceService;
